@@ -24,7 +24,6 @@ import { hasOwnProperty } from "../utils";
 // tslint:disable object-literal-key-quotes
 export const rules = {
     // TypeScript Specific
-
     "adjacent-overload-signatures": true,
     "ban-types": {
         options: [
@@ -147,7 +146,6 @@ export const rules = {
     "use-isnan": true,
 
     // Maintainability
-
     "cyclomatic-complexity": true,
     eofline: true,
     indent: [true, "spaces"],
@@ -174,7 +172,6 @@ export const rules = {
     ],
 
     // Style
-
     align: [true, "parameters", "arguments", "statements", "elements", "members"],
     "array-type": [true, "array-simple"],
     "arrow-parens": true,
